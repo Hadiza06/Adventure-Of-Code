@@ -1,0 +1,14 @@
+# Day 1 - Advent of Code 2025
+
+## Objectif
+Trouver le mot de passe du coffre du premier jour. Le coffre a un cadran de 0 à 99. Chaque rotation est indiquée par L ou R et un nombre de clics.
+
+## Comment j'ai fait
+- Le cadran commence à 50.
+- L → tourner vers des nombres plus petits, R → vers des nombres plus grands.
+- Le cadran est circulaire, donc on utilise modulo 100.
+- On parcourt toutes les rotations et on compte combien de fois le cadran pointe sur 0.
+
+## Fichiers
+- `day1.py` : script pour résoudre le puzzle
+- `input.txt` : fichier avec les rotations
