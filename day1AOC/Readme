@@ -13,3 +13,6 @@ Le puzzle demandait d’analyser une série de rotations sur un cadran numérot�
    - Utiliser le modulo 100 pour rester dans l’intervalle 0–99.  
 3. Compter chaque fois que la position vaut 0.  
 4. Le total obtenu est le “mot de passe” pour le puzzle.
+
+
+***PS : Le fichier input.txt vient du site Advent of Code
